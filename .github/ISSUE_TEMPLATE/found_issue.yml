@@ -1,14 +1,13 @@
-name: Found issue report
-description: Report a bug or problem you found in Kolibri
-title: "Found issue: "
+name: Bug report
+description: Report a bug to help us improve Kolibri
+title: "[Bug]: "
 labels:
   - triage
-type: bug
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report an issue.
+        Thanks for taking the time to report this issue.
   - type: input
     id: summary
     attributes:
